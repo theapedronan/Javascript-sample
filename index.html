@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Javascript sample</title>
     <style>
         #divContainer {
             text-align: center;
         }
+
         .redText {
-            color: red(25, 0, 255);
-            background-color: #bebebe(170, 196, 170);
+            color: red;
+            background-color: #bebebe;
             margin: 1rem;
         }
-         .redText:hover {
-                color: blue(197, 197, 7);
-                background-color: green(128, 0, 0);
+
+        .redText:hover {
+            color: blue;
+            background-color: green;
 
         }
-          div {
+
+        div {
             margin-bottom: 1rem;
             font-size: large;
-          }
-          </style>
+        }
+    </style>
 
 
 </head>
+
 <body>
     <div id="divContainer">
         <h1>Login</h1>
-        </div>
-            <input type="text"
-            placeholder="Username" class="redText">
-        </div>
-        <div>
-            <input type="password"
-            placeholder="Password" class="redText">
-        </div>
-        <div><button id="buttonLogin">Login</button</div>
     </div>
-</body>        
-     </body>    
-    
+    <input type="text" placeholder="Username" class="redText">
+
+    <input type="password" placeholder="Password" class="redText">
+
+    <div><button id="buttonLogin">Login</button>
+    </div>
 </body>
 <script>
     alert("Hello Friend");
-    console.log("Hello World.", 1 + 1); 
+    console.log("Hello World.", 1 + 1);
 
     let buttonLogin = document.querySelector("#buttonLogin")
     buttonLogin.onclick = function () {
-        alert ("Login successful");
+        alert("Login successful");
     }
 </script>
+
 </html>
